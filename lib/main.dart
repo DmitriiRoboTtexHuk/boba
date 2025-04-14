@@ -131,6 +131,7 @@ class FallingFruitWidget extends StatelessWidget {
 
 FallingFruitWidget({required this.fruit});
   String load="";
+  String load2="";
   @override
   Widget build(BuildContext context) {
     return Positioned(
