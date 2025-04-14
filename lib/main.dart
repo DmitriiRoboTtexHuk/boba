@@ -128,9 +128,9 @@ class Fruit {
 // Виджет для отображения падающих фруктов
 class FallingFruitWidget extends StatelessWidget {
   final Fruit fruit;
-  String load="";
-  const FallingFruitWidget({required this.fruit});
 
+FallingFruitWidget({required this.fruit});
+  String load="";
   @override
   Widget build(BuildContext context) {
     return Positioned(
